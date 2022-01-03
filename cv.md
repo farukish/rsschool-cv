@@ -1,11 +1,17 @@
 # FARUK ISHMURZIN
 ## Contact information
 **Country** Russia Federation
+
 **City** Saint-Petersburg
+
 **Phone:** +7 (921) 898 90 48
+
 **E-mail:** ifaruk@yandex.ru
+
 **Telegram** @ifaruk
+
 **GitHub** farukish
+
 **Discord** farukish#8467
 
 ## Briefly About Myself:
@@ -17,18 +23,19 @@ I'm from Saint-Petersburg, Russia. I am 29 years old. I am a novice front end de
 - Git, GitHub
 - Vs Code
 - Adobe Photoshop, Illustrator, InDesign, XD, Sketch UP
+
 ## Code Example:
 
 function multiply(a, b){
  return a * b
 }
 ## Projects
-[www.metalworks.ru]
-[www.salutikoff.ru]
-[www.магазин-мяса.рф]
-[www.woodhouse.spb.ru]
-[www.салютспб.рф]
-[www.help-cleaning.ru]
+[ www.metalworks.ru ]
+[ www.salutikoff.ru ]
+[ www.магазин-мяса.рф ]
+[ www.woodhouse.spb.ru ]
+[ www.салютспб.рф ]
+[ www.help-cleaning.ru ]
 ## Education:
 Saint-Petersburg Mining university (The first higher technical univercity in Russia) - specialty mining engineer.
 ## Languages:
