@@ -26,17 +26,17 @@ I'm from Saint-Petersburg, Russia. I am 29 years old. I am a novice front end de
 
 ## Code Example:
 ```
-function multiply(a, b){  
- return a * b  
+function multiply(a, b){
+ return a * b
 }
 ```
 ## Projects
-[www.metalworks.ru]  
-[www.salutikoff.ru]  
-[www.магазин-мяса.рф]    
-[www.woodhouse.spb.ru]   
-[www.салютспб.рф]  
-[www.help-cleaning.ru]  
+[https://metalworks.ru]  
+[https://salutikoff.ru]  
+[http://www.магазин-мяса.рф]    
+[https://woodhouse.spb.ru]   
+[https://www.салютспб.рф]  
+[http://www.help-cleaning.ru]  
 ## Education:
 Saint-Petersburg Mining university (The first higher technical univercity in Russia) - specialty mining engineer.
 ## Languages:
