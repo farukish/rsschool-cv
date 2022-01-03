@@ -31,12 +31,12 @@ function multiply(a, b){
 }
 ```
 ## Projects
-<www.metalworks.ru>  
-<www.salutikoff.ru> 
-<www.магазин-мяса.рф>  
-<www.woodhouse.spb.ru>  
-<www.салютспб.рф>  
-<www.help-cleaning.ru> 
+[www.metalworks.ru]  
+[www.salutikoff.ru]  
+[www.магазин-мяса.рф]    
+[www.woodhouse.spb.ru]   
+[www.салютспб.рф]  
+[www.help-cleaning.ru]  
 ## Education:
 Saint-Petersburg Mining university (The first higher technical univercity in Russia) - specialty mining engineer.
 ## Languages:
