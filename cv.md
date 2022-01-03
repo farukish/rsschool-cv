@@ -33,10 +33,10 @@ function multiply(a, b){
 ## Projects
 <https://metalworks.ru>  
 <https://salutikoff.ru>  
-<http://www.магазин-мяса.рф>    
-<https://woodhouse.spb.ru> 
-<https://www.салютспб.рф> 
-<http://www.help-cleaning.ru>
+<https://woodhouse.spb.ru>  
+<http://www.help-cleaning.ru>  
+<https://www.салютспб.рф>  
+<http://www.магазин-мяса.рф>  
 ## Education:
 Saint-Petersburg Mining university (The first higher technical univercity in Russia) - specialty mining engineer.
 ## Languages:
