@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЛЯ ИЛА! КОНФИДЕНЦИАЛЬНО!</title>
+    <style>
+    * {margin: 0; padding: 0;}
+    body {background: black;}
+    canvas {display: block;}
+    .il {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 48vh;
+        bottom:0;
+        margin:auto;
+        z-index: 999;
+        text-align: center;
+    }
+    .link a {
+        font-size: 24px;
+        color: #0F0;
+        text-decoration: none;
+        font-family: sans-serif;
+        text-shadow: 0 0 50px #ccc;
+    
+    }
+    .prover {
+        font-size: 48px;
+        color:#0F0;
+        letter-spacing: 3px;
+        font-family: sans-serif;
+        text-shadow: 0 0 50px #ccc;
+        padding-bottom:20px;
+        
+    }
+    .cc {
+        position: absolute;
+        left:0;
+        background: #FFF;
+        width:50px;
+        height:50px;
+    }
+    .animated {-webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; animation-delay: 5s;}
+    .fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn; 
+ 
+    animation-duration: 3s; 
+    -webkit-animation-duration: 3s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;       
+    }
+   
+    100% {
+        transform: scale(1.1);
+        opacity: 1; 
+    }       
+}
+ 
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;       
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        opacity: 1; 
+    }       
+}
+    </style>
+</head>
+<body>
+    
+    <canvas id="c"></canvas>
+    <div class="il">
+        <div class="prover fadeIn animated">ИЛ ДУШКИН - ПРОВЕРЬ МЕНЯ!</div>
+    <div class="link fadeIn animated"><a href="https://farukish.github.io/rsschool-cv/" target="_blank">https://farukish.github.io/rsschool-cv/</a></div></div>
+    <script type="text/javascript">
+        var c = document.getElementById("c");
+var ctx = c.getContext("2d");
+
+//making the canvas full screen
+c.height = window.innerHeight;
+c.width = window.innerWidth;
+
+//chinese characters - taken from the unicode charset
+var chinese = "ИЛ ДУШКИН";
+//converting the string into an array of single characters
+chinese = chinese.split("");
+
+var font_size = 10;
+var columns = c.width / font_size; //number of columns for the rain
+//an array of drops - one per column
+var drops = [];
+//x below is the x coordinate
+//1 = y co-ordinate of the drop(same for every drop initially)
+for (var x = 0; x < columns; x++) drops[x] = 1;
+
+//drawing the characters
+function draw() {
+   //Black BG for the canvas
+   //translucent BG to show trail
+   ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+   ctx.fillRect(0, 0, c.width, c.height);
+
+   ctx.fillStyle = "#0F0"; //green text
+   ctx.font = font_size + "px arial";
+   //looping over drops
+   for (var i = 0; i <drops.length; i++) {
+      //a random chinese character to print
+      var text = chinese[Math.floor(Math.random() * chinese.length)];
+      //x = i*font_size, y = value of drops[i]*font_size
+      ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+      //sending the drop back to the top randomly after it has crossed the screen
+      //adding a randomness to the reset to make the drops scattered on the Y axis
+      if (drops[i] * font_size > c.height && Math.random() > 0.975)
+         drops[i] = 0;
+
+      //incrementing Y coordinate
+      drops[i]++;
+   }
+}
+
+setInterval(draw, 33);
+</script>
+
+</body>
+</html>
